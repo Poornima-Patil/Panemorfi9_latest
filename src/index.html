@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panemorfi 9</title>
+    <link rel="stylesheet" type="text/css" href="./output.css">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <script src="./script.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+</head>
+
+<body class="leading-loose tracking-wide">
+    <header class="h-20 bg-gray-600 w-screen">
+        <div class="flex justify-between">
+            <div class="p-4 pt-0 bg-white">
+                <img class="h-20 " src="../imgs/logo-removebg-preview.png " alt="Logo image ">
+            </div>
+            <div>
+                <ul class="md:flex hidden gap-8 pr-8 pt-4 font-bold text-white">
+                    <a href="./index.html">
+                        <li> HOME </li>
+                    </a>
+                    <a href="./index.html#aboutus">
+                        <li> ABOUT </li>
+                    </a>
+                    <a href="./index.html#projects">
+                        <li> PROJECTS</li>
+                    </a>
+                    <a href="./index.html#services">
+                        <li> SERVICES </li>
+                    </a>
+                    <a href="./index.html#contact">
+                        <li> CONTACT US</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="md:hidden">
+                <div class="fixed top-0 left-0 w-screen h-screen m-auto overflow-hidden text-center">
+                    <a id="menu-bars" class="float-right pt-4 pr-4 text-white" onclick="menuClick() "><i class="fa fa-bars fa-xl pr-4"></i></a>
+                    <a id="x-bars" class="float-right pt-4 text-white hidden pr-4" onclick="menuClick() "><i class="fa fa-x fa-xl pr-4"></i></a>
+                    <ul id="menu-list" class="font-bold pt-16 space-y-4 bg-gray-600 text-white h-screen hidden " onclick="menuClick() ">
+                        <a href="./index.html">
+                            <li> HOME </li>
+                        </a>
+                        <a href="./index.html#aboutus">
+                            <li> ABOUT </li>
+                        </a>
+                        <a href="./index.html#projects">
+                            <li> PROJECTS</li>
+                        </a>
+                        <a href="./index.html#services">
+                            <li> SERVICES </li>
+                        </a>
+                        <a href="./index.html#contact">
+                            <li> CONTACT US</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Hero image section -->
+    <section class="w-screen">
+        <img class="h-1/2 w-screen" src="../imgs/hero-image.jpg">
+    </section>
+
+    <!-- About us section-->
+    <section id="aboutus" class="m-16">
+        <span class="font-bold text-2xl underline"> ABOUT US </span>
+        <div class="flex gap-8 flex-wrap-reverse md:flex-nowrap">
+            <div class="pt-8 w-full md:w-1/2 ">
+                <p> <span class="font-bold text-lg"> Panemorfi 9 Design Studio Bangalore</span> is an Architectural firm which believes in constantly exploring the parameters of design and blurring the boundaries between Architecture, Landscape and Sustainability.
+                    We are a creative enterprise of Planning, Design, Engineering + Project management professionals, with a sharp sense of intention and purpose. Founded on the belief that architecture has a powerful impact on enriching people; life.
+                    as well as having massive influences in enhancing and improving the world we live in. we take clients from inspiration – through conceptualization – to the realization of design and project delivery in the built environment.</p>
+            </div>
+            <div class="pt-8 md:w-1/2">
+                <img src="../imgs/aboutus-image1.jpg">
+            </div>
+        </div>
+
+        <div class="flex gap-8 flex-wrap md:flex-nowrap">
+            <div class="pt-8 w-full md:w-1/2 ">
+                <img src="../imgs/aboutus-image2.jpg">
+            </div>
+            <div class="pt-8 md:w-1/2">
+                <p> In the next future years intended to be the number one leading company in the region. An outstanding dedication to client,. we take leadership to a new level by promoting professionalism, balanced design, technical capabilitie,. applied
+                    technology and quality in service, Our duty is to achieve a better-built environment, preserving specific social values in a modern context. P9 plans further to enlarge researcher and development department, believing that science,
+                    research and analysis improve our practice in architecture. Our vision is dedicated further to create tomorrows generations of architects to continue the progress and advancements.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--- Services section -->
+    <section id="services" class="m-16">
+        <span class="font-bold text-2xl underline"> SERVICES </span>
+        <div class="grid grid-rows-1 grid-cols-1 md:grid-rows-3 md:grid-cols-3 pt-8 gap-4 text-center">
+
+            <div class="border-4 border-gray-200 rounded-lg p-4">
+                <img class="mx-auto pb-4" src="../imgs/services/icons8-architecture-85.png">
+                <span class="font-bold underline text-xl"> Architecture</span>
+                <p class="pt-4"> Architectural services include <span class="font-bold"> design, preparation of construction documents, and construction administration</span>. We also provide a wide variety of services including feasibility studies, architectural programming
+                    and project management.
+                </p>
+            </div>
+            <div class="border-4 border-gray-200 px-4 rounded-lg">
+                <img class="mx-auto pb-4" src="../imgs/services/icons8-interior-design-64 (1).png">
+                <span class="font-bold underline text-xl"> Interior Design</span>
+                <p class="pt-4"> Interior design is the <span class="font-bold">art and science of enhancing the interior of a 
+                    building to achieve a healthier and more aesthetically pleasing environment for the 
+                    people using the space.</span> We are someone who plans, researches, coordinates, and manages such enhancement projects.
+                </p>
+            </div>
+            <div class="border-4 border-gray-200 rounded-lg px-4">
+
+                <img class="mx-auto pb-4" src="../imgs/services/icons8-structural-80.png">
+                <span class="font-bold underline text-xl"> Structural Design</span>
+                <p class="pt-4">
+                    As part of structural design services, we provide our customers following <span class="font-bold">structural engineering 
+                        services for building & Industrial projects which ensure cost efficiency of the building & industrial
+                         Facility.</span>Concept structural design. Feasibility study. Cost comparison of various structural systems.</p>
+
+            </div>
+            <div class="border-4 border-gray-200 px-4 rounded-lg">
+
+                <img class="mx-auto pb-4" src="../imgs/services/icons8-electrical-50.png">
+                <span class="font-bold underline text-xl"> Electrical Design</span>
+                <p class="pt-4">
+                    Electrical design services, <span class="font-bold">we create and design electrical systems turning to our expertise on 
+                    how electricity works to create wiring and power distribution diagrams that
+                     fit an individual project's needs.</span> We examine the electrical needs of new buildings to best supply it.
+                </p>
+
+            </div>
+            <div class="border-4 border-gray-200  rounded-lg px-4">
+
+                <img class="mx-auto pb-4" src="../imgs/services/icons8-plumbing-64 (1).png">
+                <span class="font-bold underline text-xl"> Plumbing</span>
+                <p class="pt-4">
+                    Plumbing services is <span class="font-bold"> the whole system of piping, fixtures, 
+                    applications for providing water supply or drainage to the buildings with the use of pipes, 
+                    control valves, pipe layouts,storage tanks.</span>
+                </p>
+
+            </div>
+            <div class="border-4 border-gray-200 rounded-lg px-4">
+
+                <img class="mx-auto pb-4" src="../imgs/services/icons8-hvac-layout-50.png">
+                <span class="font-bold underline text-xl"> HVAC & Fire</span>
+                <p class="pt-4">
+                    HVAC design we are <span class="font-bold">responsible for the design, configuration, operation, and pricing of building control systems, including heating, air conditioning, and refrigeration mechanics.</span> Design of fire prevention
+                    systems in buildings include the fire alarms themselves, all components that make them work, those that feed into the alarms, and those that are connected to them (fire sprinklers, smoke detectors, heat detectors, evacuation systems,
+                    etc.)
+
+                </p>
+
+            </div>
+            <div class="border-4 border-gray-200 rounded-lg px-4">
+
+                <img class="mx-auto pb-4" src="../imgs/services/icons8-spring-landscape-48.png">
+                <span class="font-bold underline text-xl"> Landscape </span>
+                <p class="pt-4">
+                    Landscape design service include <span class="font-bold"> the analysis, planning, and design of exterior living spaces.</span> Landscape design service integrates a wide variety of elements to achieve functional and beautiful spaces
+                    for outdoor living.
+
+                </p>
+
+            </div>
+            <div class="border-4 border-gray-200 rounded-lg px-4">
+
+                <img class="mx-auto pb-4" src="../imgs/services/icons8-city-buildings-50.png">
+                <span class="font-bold underline text-xl"> Urban Design </span>
+                <p class="pt-4">
+                    Urban design is <span class="font-bold">concerned with the arrangement, appearance and function of our suburbs, 
+                    towns, cities, Streets and spaces.</span> It is both a process and an outcome of creating localities in which people live, engage with each other, and engage with the physical place around them.
+
+                </p>
+
+            </div>
+            <div class="border-4 border-gray-200 px-4 rounded-lg">
+                <img class="mx-auto pb-4" src="../imgs/services/icons8-city-buildings-50.png">
+                <span class="font-bold underline text-xl">Animation and Visualization</span>
+                <p class="pt-4">
+                    <span class="font-bold">This includes the process of creating 3D graphics images using 3D software.</span> 3D software uses a mixture of technologies to create 3D, photo-realistic images of structure or a building with real-world feeling
+                    content.
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section-->
+    <section id="projects" class="m-16">
+        <span class="font-bold text-2xl underline"> LATEST PROJECTS </span>
+        <div>
+            <p class="font-bold text-xl p-4 pl-0"> Project 1</p>
+            <div class="flex flex-wrap-reverse md:flex-row md:flex-nowrap gap-4">
+
+                <div class="w-full md:w-1/2">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, corrupti asperiores, odit omnis nulla dolorem ut magnam adipisci natus iure aliquid reprehenderit deserunt quis ducimus mollitia soluta, aspernatur itaque minus?</p>
+                    </p>
+                </div>
+                <div class="w-full md:w-1/2">
+                    <img src="../imgs/Projects/project1.jpeg">
+                </div>
+            </div>
+
+            <p class="font-bold text-xl p-4 pl-0"> Project 2</p>
+            <div class="flex flex-wrap md:flex-row md:flex-nowrap gap-4  ">
+
+                <div class="w-full md:w-1/2">
+                    <img src="../imgs/Projects/project1.jpeg">
+                </div>
+                <div class="w-full md:w-1/2">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, corrupti asperiores, odit omnis nulla dolorem ut magnam adipisci natus iure aliquid reprehenderit deserunt quis ducimus mollitia soluta, aspernatur itaque minus?</p>
+                    </p>
+
+                </div>
+            </div>
+
+            <p class="font-bold text-xl p-4 pl-0"> Project 3</p>
+            <div class="flex flex-wrap-reverse md:flex-row md:flex-nowrap gap-4">
+
+                <div class="w-full md:w-1/2">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, corrupti asperiores, odit omnis nulla dolorem ut magnam adipisci natus iure aliquid reprehenderit deserunt quis ducimus mollitia soluta, aspernatur itaque minus?</p>
+                    </p>
+                </div>
+                <div class="w-full md:w-1/2">
+                    <img src="../imgs/Projects/project1.jpeg">
+                </div>
+            </div>
+
+            <p class="font-bold text-xl p-4 pl-0"> Project 4</p>
+            <div class="flex flex-wrap md:flex-row md:flex-nowrap gap-4  ">
+
+                <div class="w-full md:w-1/2">
+                    <img src="../imgs/Projects/project1.jpeg">
+                </div>
+                <div class="w-full md:w-1/2">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, corrupti asperiores, odit omnis nulla dolorem ut magnam adipisci natus iure aliquid reprehenderit deserunt quis ducimus mollitia soluta, aspernatur itaque minus?</p>
+                    </p>
+
+                </div>
+            </div>
+    </section>
+
+</body>
+
+
+<footer id="contact" class="bg-gray-600 text-white">
+    <div class="m-16 mb-0">
+        <div class="flex flex-wrap md:flex-nowrap md:justify-between p-4">
+
+            <p class="p-4 w-full md:w-1/2 text-center md:text-left">
+                <span class="font-bold text-2xl underline pb-4"> Address </span> <br> Varsha Metan <br> B-Arch, M-Arch <br> Urbandesign Architect No,249 <br> Anjanapura Village, Kembathalli Main Road <br> Anjanapura 11th Block, <br> Lal Bahadur Shastri
+                Nagar,
+                <br> Bengaluru, Karnataka 560083
+            </p>
+            <div class="p-4  md:w-1/2 mx-auto">
+                <iframe class="w-64 h-64" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.783911908979!2d77.57172341365514!3d12.857228890931019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6be8252d59b1%3A0x1df0af8768604740!2sPanemorfi9%20Design%20Studio!5e0!3m2!1sen!2sin!4v1671465891763!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div>
+
+        </div>
+    </div>
+</footer>
+
+</html>
